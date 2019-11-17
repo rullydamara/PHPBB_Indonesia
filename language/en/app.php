@@ -12,6 +12,16 @@
 */
 
 /**
+ *
+ * Install [Bahasa Indonesia for Forum SI-UT]
+ * @package language
+ * @version $Id: viewforum.php 2019 rullydamara
+ * @author 2019 rullydamara <http://damarastudio.com>
+ *
+ *
+ */
+
+/**
 * DO NOT CHANGE
 */
 if (!defined('IN_PHPBB'))
@@ -41,8 +51,8 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'CONTROLLER_ARGUMENT_VALUE_MISSING'	=> 'Missing value for argument #%1$s: <strong>%3$s</strong> in class <strong>%2$s</strong>',
-	'CONTROLLER_NOT_SPECIFIED'			=> 'No controller has been specified.',
-	'CONTROLLER_METHOD_NOT_SPECIFIED'	=> 'No method was specified for the controller.',
-	'CONTROLLER_SERVICE_UNDEFINED'		=> 'The service for controller “<strong>%s</strong>” is not defined in ./config/services.yml.',
+	'CONTROLLER_ARGUMENT_VALUE_MISSING'	=> 'Nilai yang tidak ada untuk argumen #%1$s: <strong>%3$s</strong> di kelas <strong>%2$s</strong>',
+	'CONTROLLER_NOT_SPECIFIED'			=> 'Tidak ada kontroler yang telah ditentukan.',
+	'CONTROLLER_METHOD_NOT_SPECIFIED'	=> 'Tidak ada metode yang ditentukan untuk pengontrol.',
+	'CONTROLLER_SERVICE_UNDEFINED'		=> 'Layanan untuk kontroler “<strong>%s</strong>” tidak didefinisikan untuk ./config/services.yml.',
 ));
