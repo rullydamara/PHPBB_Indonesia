@@ -12,6 +12,16 @@
 */
 
 /**
+ *
+ * Install [Bahasa Indonesia for Forum SI-UT]
+ * @package language
+ * @version $Id: viewforum.php 2019 rullydamara
+ * @author 2019 rullydamara <http://damarastudio.com>
+ *
+ *
+ */
+
+/**
 * DO NOT CHANGE
 */
 if (!defined('IN_PHPBB'))
@@ -38,27 +48,27 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'CAPTCHA_QA'				=> 'Q&amp;A',
-	'CONFIRM_QUESTION_EXPLAIN'	=> 'This question is a means of preventing automated form submissions by spambots.',
-	'CONFIRM_QUESTION_WRONG'	=> 'You have provided an invalid answer to the question.',
-	'CONFIRM_QUESTION_MISSING'	=> 'Questions for the captcha could not be retrieved. Please contact a board administrator.',
+	'CONFIRM_QUESTION_EXPLAIN'	=> 'Pertanyaan ini dimaksudkan untuk mencegah dan pencegahan submisi otomatis oleh bot.',
+	'CONFIRM_QUESTION_WRONG'	=> 'Anda memberikan jawaban yang salah atas pertanyaan.',
+	'CONFIRM_QUESTION_MISSING'	=> 'Pertanyaan untuk captcha tidak dapat diambil. Silahkan hubungi administrator panel.',
 
-	'QUESTION_ANSWERS'			=> 'Answers',
-	'ANSWERS_EXPLAIN'			=> 'Please enter valid answers to the question, one per line.',
-	'CONFIRM_QUESTION'			=> 'Question',
+	'QUESTION_ANSWERS'			=> 'Jawaban',
+	'ANSWERS_EXPLAIN'			=> 'Silahkan masukkan jawaban valid atas pertanyaan, satu setiap baris.',
+	'CONFIRM_QUESTION'			=> 'Pertanyaan',
 
-	'ANSWER'					=> 'Answer',
-	'EDIT_QUESTION'				=> 'Edit Question',
-	'QUESTIONS'					=> 'Questions',
-	'QUESTIONS_EXPLAIN'			=> 'For every form submission where you have enabled the Q&amp;A plugin, users will be asked one of the questions specified here. To use this plugin at least one question must be set in the default language. These questions should be easy for your target audience to answer but beyond the ability of a bot capable of running a Google™ search. Only a single proper question is necessary. If you start receiving spam registrations, the question should be changed. Enable the strict setting if your question relies on mixed case, punctuation or whitespace.',
-	'QUESTION_DELETED'			=> 'Question deleted',
-	'QUESTION_LANG'				=> 'Language',
-	'QUESTION_LANG_EXPLAIN'		=> 'The language this question and its answers are written in.',
-	'QUESTION_STRICT'			=> 'Strict check',
-	'QUESTION_STRICT_EXPLAIN'	=> 'Enable to enforce mixed case, punctuation and whitespace.',
+	'ANSWER'					=> 'Jawab',
+	'EDIT_QUESTION'				=> 'Edit Pertanyaan',
+	'QUESTIONS'					=> 'Pertanyaan',
+	'QUESTIONS_EXPLAIN'			=> 'Untuk setiap bagian formulir dimana anda sudah mengaktifkan plugin Q&amp;A pengguna akan ditanyai satu dari pertanyaan-pertanyaan yang ditentukan di sini. Untuk menggunakan plugin ini paling tidak satu pertanyaan harus diatur dalam bahasa bawaannya. Pertanyaan ini seharusnya dibuat lebih mudah untuk para pengunjung untuk dijawab tetapi masih diluar kemampuan dari bot untuk menjalankan pencarian Google™. Dengan melakukan sekumpulan pengubahan secara besar dan teratur dari pertanyaan akan memberikan hasil yang lebih baik. Pengaktifan pengaturan paksa dari pertanyaan anda didasari oleh campuran huruf besar dan kecil, tanda baca ataupun spasi.',
+	'QUESTION_DELETED'			=> 'Pertanyaan dihapus',
+	'QUESTION_LANG'				=> 'Bahasa',
+	'QUESTION_LANG_EXPLAIN'		=> 'Bahasa pertanyaan dan jawaban yang dituliskan.',
+	'QUESTION_STRICT'			=> 'Perikasa',
+	'QUESTION_STRICT_EXPLAIN'	=> 'Aktifkan untuk menerapkan campuran karakter, punctuation dan sepasi.',
 
-	'QUESTION_TEXT'				=> 'Question',
-	'QUESTION_TEXT_EXPLAIN'		=> 'The question presented to the user.',
+	'QUESTION_TEXT'				=> 'Pertanyaan',
+	'QUESTION_TEXT_EXPLAIN'		=> 'Pertanyaan yang diberikan ke pengguna.',
 
-	'QA_ERROR_MSG'				=> 'Please fill in all fields and enter at least one answer.',
-	'QA_LAST_QUESTION'			=> 'You cannot delete all questions while the plugin is active.',
+	'QA_ERROR_MSG'				=> 'Mohon diisi semua isian dan masukkan paling sedikit satu jawaban.',
+	'QA_LAST_QUESTION'			=> 'Anda tidak dapat menghapus semua pertanyaan pada saat plugin aktif.',
 ));
