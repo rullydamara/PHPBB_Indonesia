@@ -12,6 +12,16 @@
 */
 
 /**
+ *
+ * Install [Bahasa Indonesia for Forum SI-UT]
+ * @package language
+ * @version $Id: viewforum.php 2019 rullydamara
+ * @author 2019 rullydamara <http://damarastudio.com>
+ *
+ *
+ */
+
+/**
 * DO NOT CHANGE
 */
 if (!defined('IN_PHPBB'))
@@ -37,35 +47,35 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'ACTIVE_TOPICS'			=> 'Active topics',
-	'ANNOUNCEMENTS'			=> 'Announcements',
+	'ACTIVE_TOPICS'			=> 'Topik yang Aktif',
+	'ANNOUNCEMENTS'			=> 'Pengumuman',
 
-	'FORUM_PERMISSIONS'		=> 'Forum permissions',
+	'FORUM_PERMISSIONS'		=> 'Perizinan Forum',
 
-	'ICON_ANNOUNCEMENT'		=> 'Announcement',
+	'ICON_ANNOUNCEMENT'		=> 'Pengumuman',
 	'ICON_STICKY'			=> 'Sticky',
 
-	'LOGIN_NOTIFY_FORUM'	=> 'You have been notified about this forum, please login to view it.',
+	'LOGIN_NOTIFY_FORUM'	=> 'Anda telah diberitahukan mengenai forum ini, silahan login untuk melihat.',
 
-	'MARK_TOPICS_READ'		=> 'Mark topics read',
+	'MARK_TOPICS_READ'		=> 'Tandai topik sudah dibaca',
 
-	'NEW_POSTS_HOT'			=> 'New posts [ Popular ]',	// Not used anymore
-	'NEW_POSTS_LOCKED'		=> 'New posts [ Locked ]',	// Not used anymore
-	'NO_NEW_POSTS_HOT'		=> 'No new posts [ Popular ]',	// Not used anymore
-	'NO_NEW_POSTS_LOCKED'	=> 'No new posts [ Locked ]',	// Not used anymore
-	'NO_READ_ACCESS'		=> 'You do not have the required permissions to view or read topics within this forum.',
-	'NO_FORUMS_IN_CATEGORY'	=> 'This category has no forums.',
-	'NO_UNREAD_POSTS_HOT'		=> 'No unread posts [ Popular ]',
-	'NO_UNREAD_POSTS_LOCKED'	=> 'No unread posts [ Locked ]',
+	'NEW_POSTS_HOT'			=> 'Pesan baru [ Populer ]',	// Not used anymore
+	'NEW_POSTS_LOCKED'		=> 'Pesan baru [ Dikunci ]',	// Not used anymore
+	'NO_NEW_POSTS_HOT'		=> 'Tidak ada pesan baru [ Populer ]',	// Not used anymore
+	'NO_NEW_POSTS_LOCKED'	=> 'Tidak ada pesan baru [ Dikunci ]',	// Not used anymore
+	'NO_READ_ACCESS'		=> 'Anda tidak memiliki perizinan yang dibutuhkan untuk membaca topik di dalam forum ini.',
+	'NO_FORUMS_IN_CATEGORY'	=> 'Kategori ini tidak memiliki forum',
+	'NO_UNREAD_POSTS_HOT'		=> 'Tidak ada pesan tak terbaca [ Populer ]',
+	'NO_UNREAD_POSTS_LOCKED'	=> 'Tidak ada pesan tak terbaca [ Dikunci ]',
 
-	'POST_FORUM_LOCKED'		=> 'Forum is locked',
+	'POST_FORUM_LOCKED'		=> 'Forum ini dikunci',
 
-	'TOPICS_MARKED'			=> 'The topics for this forum have now been marked read.',
+	'TOPICS_MARKED'			=> 'Topik untuk forum ini telah ditandai dibaca.',
 
-	'UNREAD_POSTS_HOT'		=> 'Unread posts [ Popular ]',
-	'UNREAD_POSTS_LOCKED'	=> 'Unread posts [ Locked ]',
+	'UNREAD_POSTS_HOT'		=> 'Pesan belum terbaca [ Populer ]',
+	'UNREAD_POSTS_LOCKED'	=> 'Pesan belum terbaca [ Dikunci ]',
 
-	'VIEW_FORUM'			=> 'View forum',
+	'VIEW_FORUM'			=> 'Lihat forum',
 	'VIEW_FORUM_TOPICS'		=> array(
 		1	=> '%d topic',
 		2	=> '%d topics',
