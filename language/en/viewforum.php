@@ -73,7 +73,7 @@ $lang = array_merge($lang, array(
 	'TOPICS_MARKED'			=> 'Topik untuk forum ini telah ditandai dibaca.',
 
 	'UNREAD_POSTS_HOT'		=> 'Pesan belum terbaca [ Populer ]',
-	'UNREAD_POSTS_LOCKED'	=> 'Pesan belum terbaca [ Dikunci ]',
+	'UNREAD_POSTS_LOCKED'	=> 'Pesan belum terbaca  [ Dikunci ]',
 
 	'VIEW_FORUM'			=> 'Lihat forum',
 	'VIEW_FORUM_TOPICS'		=> array(
