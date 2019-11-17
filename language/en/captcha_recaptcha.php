@@ -1,8 +1,8 @@
 <?php
 /**
-*
 * This file is part of the phpBB Forum Software package.
-*
+* @version $Id: viewforum.php 2019 rullydamara
+* @author 2019 rullydamara <http://damarastudio.com>
 * @copyright (c) phpBB Limited <https://www.phpbb.com>
 * @license GNU General Public License, version 2 (GPL-2.0)
 *
@@ -37,16 +37,16 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'RECAPTCHA_LANG'				=> 'en-GB', // Find the language/country code on https://developers.google.com/recaptcha/docs/language - If no code exists for your language you can use "en" or leave the string empty
-	'RECAPTCHA_NOT_AVAILABLE'		=> 'In order to use reCaptcha, you must create an account on <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
+	'RECAPTCHA_LANG'				=> 'en', // Find the language/country code on https://developers.google.com/recaptcha/docs/language - If no code exists for your language you can use "en" or leave the string empty
+	'RECAPTCHA_NOT_AVAILABLE'		=> 'Untuk menggunakan reCaptcha, anda harus membuat akun di <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
 	'CAPTCHA_RECAPTCHA'				=> 'reCaptcha',
-	'RECAPTCHA_INCORRECT'			=> 'The solution you provided was incorrect',
-	'RECAPTCHA_NOSCRIPT'			=> 'Please enable JavaScript in your browser to load the challenge.',
+	'RECAPTCHA_INCORRECT'			=> 'Konfirmasi visual yang anda berikan tidak tepat',
+	'RECAPTCHA_NOSCRIPT'			=> 'Tolong aktifkan JavaScript di browser Anda untuk memuat tantangannya.',
 
-	'RECAPTCHA_PUBLIC'				=> 'Public reCaptcha key',
-	'RECAPTCHA_PUBLIC_EXPLAIN'		=> 'Your public reCaptcha key. Keys can be obtained on <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
-	'RECAPTCHA_PRIVATE'				=> 'Private reCaptcha key',
-	'RECAPTCHA_PRIVATE_EXPLAIN'		=> 'Your private reCaptcha key. Keys can be obtained on <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
+	'RECAPTCHA_PUBLIC'				=> 'Kunci publik reCaptcha',
+	'RECAPTCHA_PUBLIC_EXPLAIN'		=> 'Kunci publik reCaptcha anda. Kunci ini didapatkan di <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
+	'RECAPTCHA_PRIVATE'				=> 'Kunci personal reCaptcha',
+	'RECAPTCHA_PRIVATE_EXPLAIN'		=> 'Kunci personal reCaptcha. Kunci ini didapatkan di <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
 
-	'RECAPTCHA_EXPLAIN'				=> 'In an effort to prevent automatic submissions, we require that you complete the following challenge.',
+	'RECAPTCHA_EXPLAIN'				=> 'Dalam upaya mencegah pengiriman otomatis, kami mewajibkan Anda menyelesaikan tantangan berikut.',
 ));
